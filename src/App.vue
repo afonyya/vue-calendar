@@ -1,6 +1,5 @@
 <script setup lang="ts">
-  import HelloWorld from './components/HelloWorld.vue';
-  import TheWelcome from './components/TheWelcome.vue';
+  import Calendar from './components/Calendar.vue';
 </script>
 
 <template>
@@ -12,7 +11,9 @@
       width="125"
       height="125"
     />
-    <div class="wrapper"></div>
+    <div class="wrapper">
+      <Calendar />
+    </div>
   </header>
   <main></main>
 </template>

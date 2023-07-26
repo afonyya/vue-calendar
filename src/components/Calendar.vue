@@ -1,4 +1,8 @@
-<script lang="ts"></script>
+<script lang="ts">
+  export default defineComponent({
+    name: 'Calendar',
+  });
+</script>
 
 <template>
   <div
